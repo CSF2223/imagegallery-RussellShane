@@ -12,6 +12,22 @@ selector {property: value;}
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+html {
+    font-size: 62.5%;
+    
+}
+header {
+    margin: 0 4rem;
+    letter-spacing:0.8rem;
+    text-align:center;
+    border-bottom: 1px solid #826f66;
+    border-right: 1px solid #826f66;
+    border-left: 1px solid #826f66;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+}
 body {
     background-color:#3A3845;
     color: #F7CCAC;
@@ -19,9 +35,22 @@ body {
     margin: 0;
 }
 
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+    
+}
 
 
-
+.imageCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
 
 
 
